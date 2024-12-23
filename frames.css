@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    height: 100vh;
+    background-color: green;
+}
+
+iframe {
+    border: solid 20px transparent;
+    border-image: url('./images//burnedcookie.png') 20 round;
+    border-image-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    animation: border-glow 2s infinite alternate;
+
+}

@@ -15,3 +15,8 @@ a:hover {
     font-size: 30px;
     color: red;
 }
+
+.avatar {
+    border: white solid 5px;
+    width: 100px;
+}

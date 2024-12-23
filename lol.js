@@ -1,31 +1,22 @@
 console.log('Hello World!')
+const gamesDiv = document.getElementById('gamesDiv')
+const recipesDiv = document.getElementById('recipesDiv')
 
-const gameList = [
-    {
-        title: 'Christmas Countdown'
-    },
-    {
-        title: 'Ho-Ho Maze!',
-    },
-    {
-        title: `Santa's Busy Day`
-    },
-    {
-        title: `Save Santa`
-    },
-    {
-        title: 'The Worries of Santa Clauses - Demo'
-    }
-]
+const gamesList = document.createElement('ul')
 
-
-const gamesListDiv = document.getElementById('gamesList')
-
-gameList.forEach(game => {
-    console.log(game.title)
-    const gameP = document.createElement('p')
-    gameP.innerText = game.title
-    gamesListDiv.appendChild(gameP)
-
+games.forEach(game => {
+    const gameLi = document.createElement('li')
+    gameLi.innerText = game.title
+    gamesList.appendChild(gameLi)
 })
 
+const recipeList = document.createElement('ul')
+
+recipes.forEach(recipe => {
+    const recipeLi = document.createElement('li');
+    recipeLi.innerText = recipe
+    recipeList.appendChild(recipeLi)
+})
+
+gamesDiv.append(gamesList)
+recipesDiv.append(recipeList)
