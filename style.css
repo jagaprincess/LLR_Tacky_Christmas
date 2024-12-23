@@ -1,0 +1,36 @@
+* {
+    font-family: 'Comic Sans MS';
+}
+body {
+    background-image: url('./images/snow02.gif');
+    background-color: rgb(61, 61, 230)
+}
+
+h1 {
+    color: greenyellow
+}
+
+h2 {
+    color: darkblue;
+}
+
+.dancing-santa {
+    width: 100px;
+    border: solid 5px lime;
+}
+
+#dancing-pikachu {
+    border-style: double;
+    border: 10px solid red;
+}
+
+#gamesList {
+    color: lightblue;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+ul {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
